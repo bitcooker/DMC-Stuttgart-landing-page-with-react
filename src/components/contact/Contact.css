@@ -1,0 +1,166 @@
+.contactSection {
+  width: 100%;
+  height: 650px;
+}
+
+.contactSection .contactMap {
+  width: 100%;
+  height: 100%;
+  background-image: url("../../assets/map2.png");
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  position: relative;
+}
+
+.contactSection .contactPin {
+  width: 100px;
+  height: 100px;
+  color: #983645;
+  text-align: center;
+  position: absolute;
+}
+
+.contactSection .contactContent {
+  width: 400px;
+  height: 280px;
+  background-color: #FFF;
+  color: #000;
+  position: relative;
+}
+
+.contactSection .contactContent h3 {
+  margin: 0;
+  font-size: 24px;
+  line-height: 40px;
+  font-weight: 800;
+  position: relative;
+  left: 25px;
+  top: 20px;
+}
+
+.contactSection .contactContent h4 {
+  margin: 0;
+  font-size: 17px;
+  line-height: 25px;
+  font-weight: 700;
+}
+
+.contactSection .contactContent .contactAddress {
+  position: relative;
+  left: 25px;
+  top: 45px;
+}
+
+.contactSection .contactContent .contactAddress address {
+  font-style: normal;
+  font-size: 17px;
+  line-height: 25px;
+  font-weight: 400;
+}
+
+.contactSection .contactContent .contactContact {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: start;
+      -ms-flex-pack: start;
+          justify-content: start;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  gap: 20px;
+  position: relative;
+  left: 25px;
+  top: 70px;
+}
+
+.contactSection .contactContent .contactContact p {
+  margin: 0;
+  font-size: 17px;
+  line-height: 25px;
+  font-weight: 400;
+}
+
+.contactSection .contactContent .contactContact .contactBold {
+  font-weight: 700;
+}
+
+.contactSection .contactContent .contactContact .contactEmail {
+  color: #983645;
+}
+
+.contactSection .contactContent::before {
+  content: "";
+  width: 0px;
+  height: 0px;
+  position: absolute;
+  -webkit-transform: rotate(225deg);
+          transform: rotate(225deg);
+  border-left: 20px solid transparent;
+  border-right: 20px solid #FFF;
+  border-top: 20px solid #FFF;
+  border-bottom: 20px solid transparent;
+  left: -19px;
+  top: 40px;
+}
+
+@media screen and (max-width: 1023px) {
+  .contactPin {
+    top: 260px;
+    left: 45.6%;
+  }
+  .contactContent {
+    top: 260px;
+    left: 58%;
+  }
+}
+
+@media screen and (min-width: 1024px) {
+  .contactPin {
+    top: 260px;
+    left: 45.6%;
+  }
+  .contactContent {
+    top: 260px;
+    left: 56%;
+  }
+}
+
+@media screen and (min-width: 1280px) {
+  .contactPin {
+    top: 260px;
+    left: 45.8%;
+  }
+  .contactContent {
+    top: 260px;
+    left: 54%;
+  }
+}
+
+@media screen and (min-width: 1650px) {
+  .contactPin {
+    top: 270px;
+    left: 46.5%;
+  }
+  .contactContent {
+    top: 270px;
+    left: 53%;
+  }
+}
+
+@media screen and (min-width: 2050px) {
+  .contactPin {
+    top: 270px;
+    left: 47%;
+  }
+  .contactContent {
+    top: 270px;
+    left: 52%;
+  }
+}
+/*# sourceMappingURL=Contact.css.map */

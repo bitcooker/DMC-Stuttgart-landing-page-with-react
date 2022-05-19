@@ -1,0 +1,113 @@
+.profileSection {
+  margin-bottom: 100px;
+}
+
+.profileSection h2 {
+  margin-bottom: 50px;
+}
+
+.profileSection .profileCardsDiv {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+}
+
+.profileSection .profileCardsDiv div {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+}
+
+.profileSection button {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  gap: 5px;
+  border: none;
+  outline: none;
+  color: #FFF;
+  padding: 20px 40px;
+  background-color: #983645;
+  margin: 30px auto;
+}
+
+@media screen and (max-width: 1365px) {
+  .profileSection button {
+    padding: 15px 30px;
+  }
+}
+
+@media screen and (min-width: 1688px) {
+  .profileSection .profileCardsDiv {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: row;
+            flex-direction: row;
+  }
+}
+
+@media screen and (max-width: 1325px) {
+  .profileSection {
+    margin-top: 580px;
+  }
+}
+
+@media screen and (min-width: 1326px) {
+  .profileSection {
+    margin-top: 520px;
+  }
+}
+
+@media screen and (min-width: 1470px) {
+  .profileSection {
+    margin-top: 550px;
+  }
+}
+
+@media screen and (min-width: 1680px) {
+  .profileSection {
+    margin-top: 580px;
+  }
+}
+/*# sourceMappingURL=Profile.css.map */

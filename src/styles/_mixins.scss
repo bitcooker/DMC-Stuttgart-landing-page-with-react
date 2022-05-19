@@ -1,0 +1,25 @@
+@mixin flex($align, $justify, $direction: row) {
+    display: flex;
+    align-items: $align;
+    justify-content: $justify;
+    flex-direction: $direction;
+}
+
+@mixin button($bg: none) {
+    @include flex(center, center);
+    gap: 5px;
+    border: none;
+    outline: none;
+    color: #FFF;
+    padding: 20px 40px;
+
+    @if $bg {
+        background-color: $bg;
+    } @else {
+        background: none;
+    }
+
+    @media screen and (max-width: 1365px) {
+        padding: 15px 30px;
+    }
+}

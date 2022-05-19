@@ -1,0 +1,55 @@
+@import '../../styles/mixins';
+@import '../../styles/vars';
+
+.profileSection {
+    // margin-top: 580px;
+    margin-bottom: 100px;
+    
+    h2 {
+      margin-bottom: 50px;
+    }
+
+    .profileCardsDiv {
+        // text-align: center;
+        @include flex(center, center);
+        flex-wrap: wrap;
+
+        div {
+            @include flex(center, space-between);
+        }
+    }
+
+    button {
+        @include button($red);
+        margin: 30px auto;
+    }
+}
+
+@media screen and (min-width: 1688px) {
+    .profileSection {
+        .profileCardsDiv {
+            @include flex(center, space-between);
+        }
+    }
+}
+
+@media screen and (max-width: 1325px) {
+    .profileSection {
+        margin-top: 580px;
+    }
+}
+@media screen and (min-width: 1326px) {
+    .profileSection {
+        margin-top: 520px;
+    }
+}
+@media screen and (min-width: 1470px) {
+    .profileSection {
+        margin-top: 550px;
+    }
+}
+@media screen and (min-width: 1680px) {
+    .profileSection {
+        margin-top: 580px;
+    }
+}

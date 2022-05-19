@@ -1,0 +1,11 @@
+{
+    "version": 3,
+    "mappings": "AAGA,AAAA,eAAe,CAAC;EACZ,UAAU,EAAE,KAAK;EACjB,aAAa,EAAE,IAAI;EACnB,gBAAgB,EEJZ,IAAI;CFeX;;AAdD,AAKI,eALW,CAKX,EAAE,CAAC;EACC,aAAa,EAAE,IAAI;CACtB;;AAPL,AASI,eATW,CASX,iBAAiB,CAAC;ECXlB,OAAO,EAAE,IAAI;EACb,WAAW,EDWO,MAAM;ECVxB,eAAe,EDUW,MAAM;ECThC,cAAc,EAJwB,GAAG;EDcrC,GAAG,EAAE,EAAE;EACP,SAAS,EAAE,IAAI;CAClB",
+    "sources": [
+        "Clients.scss",
+        "../../styles/_mixins.scss",
+        "../../styles/_vars.scss"
+    ],
+    "names": [],
+    "file": "Clients.css"
+}

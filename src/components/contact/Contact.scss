@@ -1,0 +1,166 @@
+@import '../../styles/mixins';
+@import '../../styles/vars';
+
+.contactSection {
+    width: 100%;
+    height: 650px;
+
+    .contactMap {
+        width: 100%;
+        height: 100%;
+        background-image: url('../../assets/map2.png');
+        background-position: center;
+        background-size: cover;
+        background-repeat: no-repeat;
+        position: relative;
+    }
+
+
+    .contactPin {
+        width: 100px;
+        height: 100px;
+        color: $red;
+        text-align: center;
+
+        position: absolute;  
+    }
+
+    .contactContent {
+        width: 400px;
+        height: 280px;
+        background-color: $white;
+        color: $black;
+
+        position: relative;
+
+        h3 {
+            margin: 0;
+            font-size: 24px;
+            line-height: 40px;
+            font-weight: 800;
+
+            position: relative;
+            left: 25px;
+            top:20px;
+        }
+
+        h4 {
+            margin: 0;
+            font-size: 17px;
+            line-height: 25px;
+            font-weight: 700;
+        }
+
+        .contactAddress {
+            position: relative;
+            left: 25px;
+            top: 45px;
+
+            address {
+                font-style: normal;
+                font-size: 17px;
+                line-height: 25px;
+                font-weight: 400; 
+            }
+        }
+
+        .contactContact {
+            @include flex(center, start);
+            gap: 20px;
+
+            position: relative;
+            left: 25px;
+            top: 70px;
+            
+            p {
+                margin: 0;
+                font-size: 17px;
+                line-height: 25px;
+                font-weight: 400;
+            }
+
+            .contactBold {
+                font-weight: 700;
+            }
+
+            .contactEmail {
+                color: $red;
+            }
+        }
+
+        &::before {
+            content: "";
+            width: 0px;
+            height: 0px;
+            position: absolute;
+            transform: rotate(225deg);
+            border-left: 20px solid transparent;
+            border-right: 20px solid $white;
+            border-top: 20px solid $white;
+            border-bottom: 20px solid transparent;
+            left: -19px;
+            top: 40px;
+        }
+    }
+}
+
+
+@media screen and (max-width: 1023px) {
+    .contactPin {
+        top: 260px;
+        left: 45.6%;
+    }
+
+    .contactContent {
+        top: 260px;
+        left: 58%;
+    }
+}
+
+
+@media screen and (min-width: 1024px) {
+    .contactPin {
+        top: 260px;
+        left: 45.6%;
+    }
+
+    .contactContent {
+        top: 260px;
+        left: 56%;
+    }
+}
+
+@media screen and (min-width: 1280px) {
+    .contactPin {
+        top: 260px;
+        left: 45.8%;
+    }
+
+    .contactContent {
+        top: 260px;
+        left: 54%;
+    }
+}
+
+@media screen and (min-width: 1650px) {
+    .contactPin {
+        top: 270px; 
+        left: 46.5%;
+    }
+
+    .contactContent {
+        top:270px;
+        left: 53%;
+    }
+}
+@media screen and (min-width: 2050px) {
+    .contactPin {
+        top: 270px; 
+        left: 47%;
+    }
+
+    .contactContent {
+        top:270px;
+        left: 52%;
+    }
+}

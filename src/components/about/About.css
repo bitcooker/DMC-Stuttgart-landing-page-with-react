@@ -1,0 +1,203 @@
+.aboutSection {
+  position: relative;
+  bottom: 100px;
+}
+
+.aboutSection div {
+  float: left;
+}
+
+.aboutSection .aboutImage {
+  max-width: 650px;
+}
+
+.aboutSection .aboutImage img {
+  -o-object-fit: fill;
+     object-fit: fill;
+  width: 100%;
+}
+
+.aboutSection .aboutContent {
+  background-color: #FFF;
+  -webkit-box-shadow: 1px 1px 12px -3px rgba(0, 0, 0, 0.5);
+          box-shadow: 1px 1px 12px -3px rgba(0, 0, 0, 0.5);
+  position: absolute;
+  right: 0;
+}
+
+.aboutSection .aboutContent p {
+  font-size: 17px;
+  line-height: 25px;
+  color: #000;
+  font-weight: 400;
+}
+
+.aboutSection .aboutContent button {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  gap: 5px;
+  border: none;
+  outline: none;
+  color: #FFF;
+  padding: 20px 40px;
+  background-color: #983645;
+  margin: 20px 0px;
+}
+
+@media screen and (max-width: 1365px) {
+  .aboutSection .aboutContent button {
+    padding: 15px 30px;
+  }
+}
+
+@media screen and (max-width: 1100px) {
+  .aboutImage {
+    width: 70%;
+  }
+  .aboutContent {
+    width: 75%;
+    top: 200px;
+  }
+}
+
+@media screen and (min-width: 1101px) {
+  .aboutImage {
+    width: 60%;
+  }
+  .aboutContent {
+    width: 70%;
+    top: 200px;
+  }
+}
+
+@media screen and (min-width: 1231px) {
+  .aboutImage {
+    width: 55%;
+  }
+  .aboutContent {
+    width: 65%;
+    top: 200px;
+  }
+}
+
+@media screen and (min-width: 1326px) {
+  .aboutImage {
+    width: 60%;
+  }
+  .aboutContent {
+    width: 65%;
+    top: 30px;
+  }
+}
+
+@media screen and (min-width: 1366px) {
+  .aboutImage {
+    width: 60%;
+  }
+  .aboutContent {
+    width: 65%;
+    top: 30px;
+  }
+}
+
+@media screen and (min-width: 1440px) {
+  .aboutImage {
+    width: 60%;
+  }
+  .aboutContent {
+    width: 60%;
+    top: 40px;
+  }
+}
+
+@media screen and (min-width: 1536px) {
+  .aboutImage {
+    width: 55%;
+  }
+  .aboutContent {
+    width: 60%;
+    top: 50px;
+  }
+}
+
+@media screen and (min-width: 1700px) {
+  .aboutImage {
+    width: 50%;
+  }
+  .aboutContent {
+    width: 60%;
+    top: 50px;
+  }
+}
+
+@media screen and (min-width: 1850px) {
+  .aboutImage {
+    width: 50%;
+  }
+  .aboutContent {
+    width: 55%;
+    top: 55px;
+  }
+}
+
+@media screen and (max-width: 1365px) {
+  .aboutContent {
+    padding: 0px 15px;
+  }
+  .aboutContent h2 {
+    margin: 10px 0px;
+  }
+  .aboutContent p {
+    margin: 10px 0px;
+  }
+}
+
+@media screen and (max-width: 1535px) {
+  .aboutContent {
+    padding: 15px 30px;
+  }
+  .aboutContent h2 {
+    margin: 15px 0px;
+  }
+  .aboutContent p {
+    margin: 15px 0px;
+  }
+}
+
+@media screen and (min-width: 1536px) {
+  .aboutContent {
+    padding: 20px;
+    padding-left: 40px;
+  }
+  .aboutContent h2 {
+    margin: 20px 0px;
+  }
+  .aboutContent p {
+    margin: 20px 0px;
+  }
+}
+
+@media screen and (min-width: 1780px) {
+  .aboutContent {
+    padding: 20px;
+    padding-left: 40px;
+  }
+  .aboutContent h2 {
+    margin: 30px 0px;
+  }
+  .aboutContent p {
+    margin: 25px 0px;
+  }
+}
+/*# sourceMappingURL=About.css.map */

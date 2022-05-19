@@ -1,0 +1,119 @@
+.detailsSection {
+  width: 100%;
+  height: 550px;
+  background-image: url("../../assets/automobilindust.png");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.detailsSection .detailsCover {
+  width: 100%;
+  height: 100%;
+  background-color: rgba(152, 54, 69, 0.85);
+}
+
+.detailsSection .detailsContainer {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: start;
+      -ms-flex-align: start;
+          align-items: start;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  gap: 10px;
+  font-family: "Open Sans", sans-serif;
+}
+
+.detailsSection .detailsContainer h2 {
+  color: #FFF;
+  margin-bottom: 0;
+}
+
+.detailsSection .detailsContainer ul {
+  padding: 0;
+  list-style-type: none;
+}
+
+.detailsSection .detailsContainer ul li {
+  color: #FFF;
+  font-size: 20px;
+  line-height: 24px;
+  font-weight: 600;
+  padding: 10px 0px;
+}
+
+.detailsSection .detailsContainer button {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  gap: 5px;
+  border: none;
+  outline: none;
+  color: #FFF;
+  padding: 20px 40px;
+  background-color: #071c25;
+}
+
+@media screen and (max-width: 1365px) {
+  .detailsSection .detailsContainer button {
+    padding: 15px 30px;
+  }
+}
+
+.detailsSection .detailsImage {
+  position: relative;
+}
+
+.detailsSection .detailsImage img {
+  width: 100%;
+  -o-object-fit: contain;
+     object-fit: contain;
+}
+
+@media screen and (max-width: 1179px) {
+  .detailsImage {
+    top: 50px;
+  }
+}
+
+@media screen and (min-width: 1180px) {
+  .detailsImage {
+    top: 30px;
+  }
+}
+
+@media screen and (max-width: 1427px) {
+  .detailsSection .detailsContainer {
+    padding-top: 10px;
+  }
+  .detailsSection .detailsContainer ul {
+    margin-bottom: 10px;
+  }
+}
+
+@media screen and (min-width: 1428px) {
+  .detailsSection .detailsContainer {
+    padding-top: 40px;
+  }
+  .detailsSection .detailsContainer ul {
+    margin-bottom: 30px;
+  }
+}
+/*# sourceMappingURL=Details.css.map */

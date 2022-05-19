@@ -1,0 +1,86 @@
+@import '../../styles/mixins';
+@import '../../styles/vars';
+
+.footer {
+    width: 100%;
+    background-color: $blue;
+    padding-bottom: 20px;
+
+    .footerNav {
+        @include flex(center, space-between);
+
+        .footerNavLinks {
+            @include flex(center, space-between);
+            gap: 10px;
+            flex-wrap: wrap;
+            flex-grow: 1;
+
+            a {
+                text-decoration: none;
+                color: $white;
+                font-size: 15px;
+                line-height: 25px;
+                font-weight: 400;
+                padding-top: 5px;
+                padding-bottom: 8px;
+            }
+        }
+    }
+
+    .footerImpressum{
+        text-align: end;
+        padding: 15px 0px 30px;
+        a {
+            text-decoration: none;
+            font-size: 15px;
+            color: rgb(212, 197, 197);
+            font-weight: 300;
+            padding-left: 30px;
+        }
+    }
+
+    hr {
+        border: none;
+        height: 1px;
+        background-color: rgb(212, 197, 197);
+    }
+
+    .footerCopyright {
+        @include flex(center, space-between);
+
+        font-size: 15px;
+        color: $white;
+        font-weight: 400;
+        padding: 10px 0px;
+
+        span {
+            font-weight: 600;
+        }
+    }
+}
+
+@media screen and (max-width: 1200px) {
+    .footerNav {
+        gap: 20px;
+    }
+
+    .footerImage {
+        width: 25%;
+
+        img {
+            width: 100%;
+            object-fit: contain;
+        }
+    }
+}
+
+@media screen and (min-width:1201px) and (max-width: 1365px) {
+    .footerNav {
+        gap: 10%;
+    }
+}
+@media screen and (min-width: 1366px) {
+    .footerNav {
+        gap: 15%;
+    }
+}

@@ -1,0 +1,11 @@
+{
+    "version": 3,
+    "mappings": "AAGA,AAAA,gBAAgB,CAAC;EACb,KAAK,EAAE,GAAG;EACV,gBAAgB,EEHZ,IAAI;CFSX;;AARD,AAII,gBAJY,CAIZ,GAAG,CAAC;EACA,KAAK,EAAE,IAAI;EACX,UAAU,EAAE,UAAU;CACzB",
+    "sources": [
+        "ClientContainer.scss",
+        "../../styles/_mixins.scss",
+        "../../styles/_vars.scss"
+    ],
+    "names": [],
+    "file": "ClientContainer.css"
+}

@@ -1,0 +1,44 @@
+@import '../../styles/mixins';
+@import '../../styles/vars';
+
+.navbar {
+    @include flex(center, space-between);
+
+    a {
+        text-decoration: none;
+        color: $white;
+        font-size: 15px;
+        line-height: 25px;
+        font-weight: 400;
+        padding-top: 5px;
+        padding-bottom: 8px;
+    }
+
+    .navbarButtonContainer {
+        @include flex (center, end);
+        gap: 5px;
+
+        button {
+            background: none;
+            border: none;
+            outline: none;
+            color: $white;
+            font-size: 14px;
+            padding: 4px 8px;
+
+            @include flex(center, center, row);
+            gap: 5px;
+        }
+
+        .kontakt {
+            background-color: $red;
+            border: 1px solid $red;
+        }
+
+        .eng {
+            border: 1px solid $white;
+        }
+    }
+
+    
+}

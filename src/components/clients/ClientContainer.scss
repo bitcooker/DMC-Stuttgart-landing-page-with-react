@@ -1,0 +1,12 @@
+@import '../../styles/mixins';
+@import '../../styles/vars';
+
+.clientContainer {
+    width: 22%;
+    background-color: $white;
+
+    img {
+        width: 100%;
+        object-fit: scale-down;
+    }
+}

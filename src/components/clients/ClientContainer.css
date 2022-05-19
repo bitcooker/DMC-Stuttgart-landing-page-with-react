@@ -1,0 +1,11 @@
+.clientContainer {
+  width: 22%;
+  background-color: #FFF;
+}
+
+.clientContainer img {
+  width: 100%;
+  -o-object-fit: scale-down;
+     object-fit: scale-down;
+}
+/*# sourceMappingURL=ClientContainer.css.map */

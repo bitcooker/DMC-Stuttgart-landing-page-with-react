@@ -1,0 +1,123 @@
+.footer {
+  width: 100%;
+  background-color: #071c25;
+  padding-bottom: 20px;
+}
+
+.footer .footerNav {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+}
+
+.footer .footerNav .footerNavLinks {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  gap: 10px;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  -webkit-box-flex: 1;
+      -ms-flex-positive: 1;
+          flex-grow: 1;
+}
+
+.footer .footerNav .footerNavLinks a {
+  text-decoration: none;
+  color: #FFF;
+  font-size: 15px;
+  line-height: 25px;
+  font-weight: 400;
+  padding-top: 5px;
+  padding-bottom: 8px;
+}
+
+.footer .footerImpressum {
+  text-align: end;
+  padding: 15px 0px 30px;
+}
+
+.footer .footerImpressum a {
+  text-decoration: none;
+  font-size: 15px;
+  color: #d4c5c5;
+  font-weight: 300;
+  padding-left: 30px;
+}
+
+.footer hr {
+  border: none;
+  height: 1px;
+  background-color: #d4c5c5;
+}
+
+.footer .footerCopyright {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  font-size: 15px;
+  color: #FFF;
+  font-weight: 400;
+  padding: 10px 0px;
+}
+
+.footer .footerCopyright span {
+  font-weight: 600;
+}
+
+@media screen and (max-width: 1200px) {
+  .footerNav {
+    gap: 20px;
+  }
+  .footerImage {
+    width: 25%;
+  }
+  .footerImage img {
+    width: 100%;
+    -o-object-fit: contain;
+       object-fit: contain;
+  }
+}
+
+@media screen and (min-width: 1201px) and (max-width: 1365px) {
+  .footerNav {
+    gap: 10%;
+  }
+}
+
+@media screen and (min-width: 1366px) {
+  .footerNav {
+    gap: 15%;
+  }
+}
+/*# sourceMappingURL=Footer.css.map */

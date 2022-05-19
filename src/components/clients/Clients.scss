@@ -1,0 +1,18 @@
+@import '../../styles/mixins';
+@import '../../styles/vars';
+
+.clientsSection {
+    margin-top: 150px;
+    margin-bottom: 50px;
+    background-color: $white;
+
+    h2 {
+        margin-bottom: 30px;
+    }
+
+    .clientsContainer {
+        @include flex(center, center);
+        gap: 3%;
+        flex-wrap: wrap;
+    }
+}
