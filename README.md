@@ -2,6 +2,8 @@
 
 Landing page made as mini-tryout project, based on xd design. The said xd design was only for desktop (1920px wide), and this project was made to accomodate that, but a few media queries were added to support other desktop screen sizes (1024px wide and up). Mobile responsive views were not added.
 
+![DMCStuttgart-Photopea](https://user-images.githubusercontent.com/128102810/228496366-5f3e1643-29ab-4de6-a7e8-62b28b6dae57.png)
+
 ## Scripts
 
 To run, install all dependencies (npm i) and then run the project (npm start).
