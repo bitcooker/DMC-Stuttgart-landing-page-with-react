@@ -1,14 +1,10 @@
-# Project Description
+# DMC Stuttgart Landing Page with React
 
-Landing page made as mini-tryout project, based on xd design. The said xd design was only for desktop (1920px wide), and this project was made to accomodate that, but a few media queries were added to support other desktop screen sizes (1024px wide and up). Mobile responsive views were not added. The final look of the page (on 1920x1080 desktop resolutions) were to mimic the look of the page from picture 'DMCStuttgart-Photopea.png', which is a design by NovaMedia.
+Landing page made as mini-tryout project, based on xd design. The said xd design was only for desktop (1920px wide), and this project was made to accomodate that, but a few media queries were added to support other desktop screen sizes (1024px wide and up). Mobile responsive views were not added.
+
+## Scripts
 
 To run, install all dependencies (npm i) and then run the project (npm start).
-
-## Getting Started with Create React App
-
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
-
-## Available Scripts
 
 In the project directory, you can run:
 
